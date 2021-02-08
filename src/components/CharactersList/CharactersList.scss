@@ -1,0 +1,13 @@
+.characters {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  justify-content: center;
+
+
+  &__card {
+    border: 1px solid black;
+
+  }
+}
